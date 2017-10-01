@@ -1,31 +1,20 @@
 package com.countbook.hyuan2.hyuan2_countbook;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
  * Created by hyuan2 on 9/27/17.
  */
 
-public class counter {
+public class Counter {
     private String itemName;
     private Date date;
     private int currentValue;
     private int initialValue;
     private String comment;
 
-    public counter(String itemName,int initialValue) throws NegativeValueException {
-        if (initialValue >= 0 ) {
-            this.itemName = itemName;
-            this.date = new Date();
-            this.initialValue = initialValue;
-            this.currentValue = initialValue;
-        }
-        else {
-            throw new NegativeValueException();
-        }
-    }
-
-    public counter(String itemName,int initialValue,String comment) throws NegativeValueException{
+    public Counter(String itemName,int initialValue,String comment) throws NegativeValueException{
         if (initialValue >= 0) {
             this.itemName = itemName;
             this.date = new Date();
@@ -44,7 +33,7 @@ public class counter {
     }
 
     public void decrementCounter() throws NegativeValueException{
-        if (this.currentValue >= 0){
+        if (this.currentValue > 0){
             --this.currentValue;
             this.date = new Date();
         }
@@ -82,5 +71,20 @@ public class counter {
 
     public void setComment(String comment){
         this.comment = comment;
+    }
+
+    public String getItemName(){return "Name: "+this.itemName;}
+    public String getCurrentValue(){return "Current value: "+Integer.toString(currentValue);}
+    public String getInitialValue() {return "Initial value: "+Integer.toString(initialValue);}
+    public String getComment() {return "Comment: "+this.comment;}
+
+    public String getDate(){
+
+        return "Date: " + new SimpleDateFormat("yyyy-MM-dd").format(this.date);
+    }
+
+    @Override
+    public String toString(){
+        return this.getItemName() +"\n" +this.getDate()+"\n"+this.getCurrentValue();
     }
 }

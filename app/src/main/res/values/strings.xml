@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">hyuan2-CountBook</string>
+    <string name="button_create">Create</string>
+    <string name="numOfCounters">     # of counters</string>
+    <string name="page_create">Create New Counter</string>
+    <string name="Name">item name</string>
+    <string name="Init">initial value</string>
+    <string name="Curr">current value</string>
+    <string name="Comm">comment</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_view">View</string>
+    <string name="button_add">+</string>
+    <string name="button_Minus">-</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_back">Back</string>
 </resources>
