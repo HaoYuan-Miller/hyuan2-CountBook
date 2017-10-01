@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:3:5-52
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\97f125470d081197a5178ef84f6608c92ea8e68f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\ee4075074d178cc647a8b1df95dcb51bb35f333b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\4b799cbc9bfb9f505f730c935b26672d1bb647b1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\5b6434f4dd36013648492c2b982cb94701103b8f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\4d467df01c6c566e7c25e739750f0b550a9b03d3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\701a320216a34fe297ee19d4dc82d7f020fa6b1a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\19f7b3d72b60ea92d1453c10c4824b9dfe790606\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\6d262621237830653c18a0593cce37566a645906\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\61fa620843bbf9540332d4de82268f6316224c84\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Miller\.android\build-cache\18e24f348d324690da53e22ae7c1d2ac0c95bfb7\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.countbook.hyuan2.hyuan2_countbook.MainActivity
+ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.countbook.hyuan2.hyuan2_countbook.CreateNewActivity
+ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:19:9-55
+	android:name
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:19:19-52
+activity#com.countbook.hyuan2.hyuan2_countbook.ViewEditActivity
+ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:20:9-54
+	android:name
+		ADDED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml:20:19-51
+uses-sdk
+INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\97f125470d081197a5178ef84f6608c92ea8e68f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\ee4075074d178cc647a8b1df95dcb51bb35f333b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\4b799cbc9bfb9f505f730c935b26672d1bb647b1\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\5b6434f4dd36013648492c2b982cb94701103b8f\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\4d467df01c6c566e7c25e739750f0b550a9b03d3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\701a320216a34fe297ee19d4dc82d7f020fa6b1a\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\19f7b3d72b60ea92d1453c10c4824b9dfe790606\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\6d262621237830653c18a0593cce37566a645906\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\61fa620843bbf9540332d4de82268f6316224c84\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Miller\.android\build-cache\18e24f348d324690da53e22ae7c1d2ac0c95bfb7\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\97f125470d081197a5178ef84f6608c92ea8e68f\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProjects\hyuan2-CountBook\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\97f125470d081197a5178ef84f6608c92ea8e68f\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\ee4075074d178cc647a8b1df95dcb51bb35f333b\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\4b799cbc9bfb9f505f730c935b26672d1bb647b1\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\5b6434f4dd36013648492c2b982cb94701103b8f\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\4d467df01c6c566e7c25e739750f0b550a9b03d3\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\701a320216a34fe297ee19d4dc82d7f020fa6b1a\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\19f7b3d72b60ea92d1453c10c4824b9dfe790606\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\6d262621237830653c18a0593cce37566a645906\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\61fa620843bbf9540332d4de82268f6316224c84\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\97f125470d081197a5178ef84f6608c92ea8e68f\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Miller\.android\build-cache\97f125470d081197a5178ef84f6608c92ea8e68f\output\AndroidManifest.xml:26:9-47
