@@ -1,3 +1,15 @@
+/*
+ * myCustomAdapter
+ *
+ * Version 1.0
+ *
+ * September 30, 2017
+ *
+ * Copyright (c) 2017 Hao Yuan, CMPUT301, University of Alberta - All Rights Reserved.
+ * You may use, distribute, or modify this code under terms and conditions of the Code of Student Behavior at University of Alberta.
+ * You can find a copy of the license in this project. Otherwise please contact hyuan2@ualberta.ca
+ */
+
 package com.countbook.hyuan2.hyuan2_countbook;
 
 import android.content.Context;
@@ -19,7 +31,11 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
 /**
- * Created by Miller on 2017/9/30.
+ * Represents a self implemented adapter
+ * @refrence https://stackoverflow.com/questions/40862154/how-to-create-listview-items-button-in-each-row
+ * @version 1.0
+ * @since 1.0
+ * Created by hyuan2 on 9/27/17.
  */
 
 public class myCustomAdapter extends BaseAdapter implements ListAdapter {
@@ -87,6 +103,11 @@ public class myCustomAdapter extends BaseAdapter implements ListAdapter {
         });
         return view;
     }
+    /**
+     * Save
+     *
+     * reference https://github.com/joshua2ua/lonelyTwitter
+     */
     protected void saveInFile() {
         try {
             FileOutputStream fos = context.openFileOutput(MainActivity.FILENAME, Context.MODE_PRIVATE);

@@ -1,3 +1,14 @@
+/*
+ * ViewEditActivity
+ *
+ * Version 1.0
+ *
+ * September 30, 2017
+ *
+ * Copyright (c) 2017 Hao Yuan, CMPUT301, University of Alberta - All Rights Reserved.
+ * You may use, distribute, or modify this code under terms and conditions of the Code of Student Behavior at University of Alberta.
+ * You can find a copy of the license in this project. Otherwise please contact hyuan2@ualberta.ca
+ */
 package com.countbook.hyuan2.hyuan2_countbook;
 
 import android.content.Context;
@@ -19,14 +30,22 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 
+/**
+ * Activity that shows detail information for a counter and allow the user to edit all information except for date
+ * @author Hao Yuan
+ * @version 1.0
+ * @since 1.0
+ * Created by hyuan2 on 9/30/17.
+ */
 public class ViewEditActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_edit);
-        final int position = this.getIntent().getIntExtra("counter",0);
-        final Counter  counter = MainActivity.counterList.get(position);
+        final int position = this.getIntent().getIntExtra("counter",0);         /* receive passed value */
+        final Counter  counter = MainActivity.counterList.get(position);            /* get the counter object */
+        /* used to display content of a counter and buttons */
         TextView name;
         TextView initialValue;
         TextView currentValue;
@@ -44,15 +63,15 @@ public class ViewEditActivity extends AppCompatActivity {
         currentValue.setText(counter.getCurrentValue());
         comment.setText(counter.getComment());
 
-        Button buttonInc = (Button) findViewById(R.id.buttonInc);
-        Button buttonDec = (Button) findViewById(R.id.buttonDec);
-        Button buttonReset = (Button) findViewById(R.id.buttonReset);
-        Button buttonDelete = (Button) findViewById(R.id.buttonDelete);
-        Button buttonBack = (Button) findViewById(R.id.buttonBack);
-        Button buttonEditName = (Button) findViewById(R.id.buttonEditName);
-        Button buttonEditInit = (Button) findViewById(R.id.buttonEditInit);
-        Button buttonEditCurr = (Button) findViewById(R.id.buttonEditCurr);
-        Button buttonEditComm = (Button) findViewById(R.id.buttonEditComm);
+        Button buttonInc = (Button) findViewById(R.id.buttonInc);               /* button used for incrementing current value */
+        Button buttonDec = (Button) findViewById(R.id.buttonDec);               /* button used for decrementing current value */
+        Button buttonReset = (Button) findViewById(R.id.buttonReset);           /* button used for resetting current value */
+        Button buttonDelete = (Button) findViewById(R.id.buttonDelete);         /* button used for deleting counter */
+        Button buttonBack = (Button) findViewById(R.id.buttonBack);             /* button used for go back */
+        Button buttonEditName = (Button) findViewById(R.id.buttonEditName);     /* button used for name editing */
+        Button buttonEditInit = (Button) findViewById(R.id.buttonEditInit);     /* button used for editing initial value */
+        Button buttonEditCurr = (Button) findViewById(R.id.buttonEditCurr);     /* button used for editing current value */
+        Button buttonEditComm = (Button) findViewById(R.id.buttonEditComm);     /* button used for editing comment */
 
         buttonInc.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -285,6 +304,11 @@ public class ViewEditActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Save
+     *
+     * reference https://github.com/joshua2ua/lonelyTwitter
+     */
     protected void saveInFile() {
         try {
             FileOutputStream fos = openFileOutput(MainActivity.FILENAME, Context.MODE_PRIVATE);
